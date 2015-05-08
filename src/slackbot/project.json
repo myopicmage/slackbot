@@ -17,11 +17,6 @@
   },
 
   "frameworks": {
-    "dnx451": {
-      "dependencies": {
-        "Microsoft.Net.Http.Client": "1.0.0-beta3-10053"
-      }
-    },
     "dnxcore50": {
       "dependencies": {
         "Microsoft.Net.Http.Client": "1.0.0-beta3-10053",
