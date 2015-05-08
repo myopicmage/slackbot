@@ -3,13 +3,6 @@
   "version": "1.0.0-*",
 
   "dependencies": {
-    "Microsoft.AspNet.Mvc": "6.0.0-beta4",
-    "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
-    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
-    "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
-    "Microsoft.Net.Http": "2.2.29",
-    "Microsoft.Net.Http.Client": "1.0.0-beta3-10053",
-    "System.IO": "4.0.10-beta-22906"
   },
 
   "commands": {
@@ -21,7 +14,9 @@
       "dependencies": {
         "Microsoft.Net.Http.Client": "1.0.0-beta3-10053",
         "System.IO": "4.0.10-beta-22906",
-        "Newtonsoft.Json": "6.0.6"
+        "Newtonsoft.Json": "6.0.6",
+        "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+        "Microsoft.AspNet.StaticFiles": "1.0.0-beta4"
       }
     }
   },
